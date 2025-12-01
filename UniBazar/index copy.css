@@ -1,0 +1,23 @@
+      body{
+        background-color: whitesmoke;
+        margin:0;
+        padding:0;
+    }
+        .cabecalho{
+        background-color: rgb(119, 207, 248);
+        width: 100%;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+    }
+    .cabecalho h1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 40px;
+        font-weight: 650;
+        color: whitesmoke;
+        font-family: 'Poppins', sans-serif;
+        margin-top:auto;
+        font-style: italic;
+    }
+
+    
