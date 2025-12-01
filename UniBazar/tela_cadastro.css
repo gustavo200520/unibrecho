@@ -1,0 +1,55 @@
+body {
+      background-color: whitesmoke;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+    }
+
+    .cabecalho {
+      background-color: rgb(119, 207, 248);
+      padding: 15px 0;
+    }
+
+    .cabecalho h1 {
+      color: white;
+      font-style: italic;
+      margin: 0;
+    }
+
+    form {
+      margin-top: 100px;
+    }
+
+    label {
+      
+      margin: 10px 0 5px 0;
+      font-size: 18px;
+    }
+
+    input {
+      width: 220px;
+      padding: 6px;
+      border: 1px solid #aaa;
+      border-radius: 5px;
+    }
+
+    button {
+      margin-top: 20px;
+      background-color: rgb(69, 181, 233);
+      color: white;
+      border: none;
+      padding: 8px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    a {
+      
+      margin-top: 15px;
+      color: rgb(69, 181, 233);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
