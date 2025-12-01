@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tela_teste.css">
+    <title>Gerenciamento</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <form action="#">
+        <div class="form-header"><!--titulo genrencie seu anuncio-->
+        <div class="title">
+            <h1>Gerenciamento de anuncio</h1>
+        </div>
+        </div>
+
+        <div class="input-group"><!--formulario-->
+            <div class="input-box">
+                <label for="NomeItem">Nome do item</label>
+                <input id="NomeItem" type="text" name="NomeItem" placeholder="Digite o nome do item" required>
+            </div>
+
+            <div class="input-box">
+                <label for="Valor">Valor</label>
+                <input id="Valor" type="number" name="Valor" placeholder="Digite o valor em R$" required>
+            </div>
+
+            <div class="input-box">
+                <label for="Descricao">Descricao</label>
+                <input id="Descricao" type="text" name="Descricao" placeholder="Digite a descricao" required>
+            </div>
+
+            <div class="input-box">
+                <label for="Celular">Celular</label>
+                <input id="Celular" type="tel" name="Celular" placeholder="(xx) xxxx-xxxx" required>
+            </div>
+        </div>
+
+        <div class="Categorias-input">
+            <div class="Categorias-title">
+                <h3>Categorias</h3>
+            </div>
+
+            <div class="Categorias-group"><!--escolher a categoria-->
+                <div class="Categorias-input">
+                    <input type="radio" id="camisa" name="Categorias">
+                    <label for="camisa">Camisa</label>
+                </div>
+
+                <div class="Categorias-input">
+                    <input type="radio" id="short" name="Categorias">
+                    <label for="short">Short</label>
+                </div>
+
+                <div class="Categorias-input">
+                    <input type="radio" id="calca" name="Categorias">
+                    <label for="calca">Calca</label>
+                </div>
+
+                <div class="Categorias-input">
+                    <input type="radio" id="calcado" name="Categorias">
+                    <label for="calcado">Calcado</label>
+                </div>
+
+                <div class="Categorias-input">
+                    <input type="radio" id="acessorios" name="Categorias">
+                    <label for="acessorios">Acessorios</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="Botao-continuar">
+            <button><a href="index.html">Continuar</a></button>
+        </div>
+        </form>
+    </div>
+    </div>
+</body>
+</html>
