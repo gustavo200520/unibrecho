@@ -6,6 +6,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="global.css">
     <link rel="stylesheet" href="tela_lista_de_desejo.css">
+    <link rel="stylesheet" href="index.css">
+
 </head>
 <body>
     
@@ -25,37 +27,53 @@
                         <button id="btnlista_de_desejo">Lista de desejos</button>
                     </li>
                     <li>Perfil</li>
+                    <li>
+                        <button id="btnentrar">Entrar</button>
+                    </li>    
+                    <li>
+                        <button id="btncadastrar">Cadastrar-se</button>
+                    </li>
                 </ul>
             </nav>
             <div class="nav-icon-container">
             </div>
         </div>
     </div>
-    <h1>Lista de Desejos:</h1>
-    <button class="Remover">
-                    Remover Itens
-    </button>
-    <br>
-    <br>
-    <br>
-    <div class="foto">
-    <a href="tela_descricao_produto.html" target="_self">
-    <img width="250" height="300" src ="fotos/download (4).jpg" alt="">  
-    </a>   <!--a imagem para ser linkada tem que estar dentro do <a>-->
-    <img width="250" height="300" src="fotos/download (5).jpg" alt="">
-    <img width="250" height="300"src="fotos/e14c7c08-088e-4b4a-9c0b-c24448807ee6.jpg" alt="">
-    <img width="250" height="300"src="fotos/Stok di awal februari💫.jpg" alt="">
-    <img width="250" height="300" src="fotos/37.jpg" alt="">
-    </div>
-    <br>
-    <div class="foto">
-        <img width="250" height="300" src="fotos/download (7).jpg" alt="">
-        <img width="250" height="300" src="fotos/Radiohead Band Tee.jpg" alt="">
-        <img width="250" height="300" src="fotos/Vintage Gorillaz Band tees.jpg" alt="">
-        <img width="250" height="300" src="fotos/camisa botafogo topper 2000 de jogo - original de época.jpg" alt="">
-        <img width="250" height="300" src="fotos/radioheadcamisaa.jpg" alt="">
-    </div>
-            <script src="index.js" ></script>
+    <main>
+        <div>
+                                <!--produtos recomendados-->
+            <div class="page-inner-content"><!--limitador-->
+                <br>
+                <h3 class="section-title">Lista de desejos</h3>
+                <div class="subtitle-underline"><!--barrinha azul embaixo--></div>
+                <div class="colunas-itens4">
+                    <div class="product">
+                        <img src="fotos/radioheadcamisa.jpg" alt="">
+                        <p class="product-name">Camisa banda Radiohead</p>
+                        <p class="product-price">R$45,00</p>
+                    </div>
+
+                    <div class="product">
+                        <img src="fotos/camisa botafogo topper 2000 de jogo - original de época.jpg" alt="">
+                        <p class="product-name">Camisa botafogo</p>
+                        <p class="product-price">R$65,00</p>
+                    </div>
+
+                    <div class="product">
+                        <img  style="height: 250px;" src="fotos/Stok di awal februari💫.jpg" alt=""><!--altura editada manualmente para combinar com as outras-->
+                        <p class="product-name">Calça jeans</p>
+                        <p class="product-price">R$75,00</p>
+                    </div>
+
+                    <div class="product">
+                        <img src="fotos/Some new caps .jpg" alt="">
+                        <p class="product-name">Boné teia de aranha</p>
+                        <p class="product-price">R$35,00</p>
+                    </div>
+
+                </div>
+            </div>
+            <script src="global.js" ></script>
 
 </body>
 </html>

@@ -12,6 +12,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
 document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('btnhome').addEventListener('click', () => {
-        window.location.href = 'tela_index_teste.html';
+        window.location.href = 'index.html';
+    });
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('btnentrar').addEventListener('click', () => {
+        window.location.href = 'tela_entrar.html';
+    });
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('btncadastrar').addEventListener('click', () => {
+        window.location.href = 'tela_cadastro.html';
     });
 });
