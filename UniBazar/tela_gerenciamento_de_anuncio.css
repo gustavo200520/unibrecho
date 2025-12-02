@@ -39,19 +39,6 @@ body{
         margin-top:auto;
         font-style: italic;
     }
-        button{  
-    gap: 15px;
-    font-weight: 500;
-    font-size: 15px;
-    cursor: pointer;
-    }
+        
     
-    button {
-      margin-top: 20px;
-      background-color: rgb(69, 181, 233);
-      color: white;
-      border: none;
-      padding: 8px 20px;
-      border-radius: 5px;
-      cursor: pointer;
-    }
+    
