@@ -11,6 +11,12 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('btnperfil').addEventListener('click', () => {
+        window.location.href = 'tela_lista_de_desejo.html';
+    });
+});
+
+document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('btnhome').addEventListener('click', () => {
         window.location.href = 'index.html';
     });
