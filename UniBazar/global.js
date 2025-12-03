@@ -17,6 +17,18 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('btngerenciar_anuncios3').addEventListener('click', () => {
+        window.location.href = 'tela_gerenciamento_de_anuncio.html';
+    });
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('btngerenciar_anuncios4').addEventListener('click', () => {
+        window.location.href = 'tela_gerenciamento_de_anuncio.html';
+    });
+});
+
+document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('btnlista_de_desejo').addEventListener('click', () => {
         window.location.href = 'tela_lista_de_desejo.html';
     });
