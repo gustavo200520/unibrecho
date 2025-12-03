@@ -1,5 +1,17 @@
 document.addEventListener('DOMContentLoaded', () => {
-    document.getElementById('btngerenciar_anuncio').addEventListener('click', () => {
+    document.getElementById('btnmeus_anuncios').addEventListener('click', () => {
+        window.location.href = 'tela_meus_anuncios.html';
+    });
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('btngerenciar_anuncios1').addEventListener('click', () => {
+        window.location.href = 'tela_gerenciamento_de_anuncio.html';
+    });
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('btngerenciar_anuncios2').addEventListener('click', () => {
         window.location.href = 'tela_gerenciamento_de_anuncio.html';
     });
 });
@@ -38,6 +50,12 @@ document.addEventListener('DOMContentLoaded', () => {
 document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('btntela_produto').addEventListener('click', () => {
         window.location.href = 'tela_produtos.html';
+    });
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('btnenviar').addEventListener('click', () => {
+        window.location.href = 'tela_meus_anuncios.html';
     });
 });
 

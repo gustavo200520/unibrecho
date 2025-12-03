@@ -1,0 +1,15 @@
+.btn_meus_anuncios{
+    margin-top: 20px;
+      background-color: rgb(69, 181, 233);
+      color: white;
+      border: none;
+      padding: 8px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      display: block;
+      margin-left: auto;
+}
+
+main{
+    height:1000px;
+}

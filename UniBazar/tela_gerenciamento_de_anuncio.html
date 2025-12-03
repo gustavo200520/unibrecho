@@ -6,6 +6,7 @@
     <title>Gerenciamento de anuncio</title>
     <link rel="stylesheet" href="tela_gerenciamento_de_anuncio.css">
     <link rel="stylesheet" href="global.css">
+    
 </head>
 <body>
    <div class="navBar">
@@ -16,9 +17,11 @@
                     <li>
                        <button id="btnhome">Home</button>
                     </li>
-                    <li>Produtos</li>
                     <li>
-                        <button id="btngerenciar_anuncio">Gerenciar anúncio</button>
+                        <button id="btntela_produto">Produtos</button>
+                    </li>
+                    <li>
+                        <button id="btnmeus_anuncios">Meus anuncios</button>
                     </li>
                     <li>
                         <button id="btnlista_de_desejo">Lista de desejos</button>
@@ -36,29 +39,30 @@
             </div>
         </div>
     </div>
-    <div class="texto">
-    <div class = "fundo">
     
-    <h1>Gerenciamento de anuncio</h1>
+    <div class="container">
+    <div class="formulario">
+
+        <label for="nome">Nome do item:</label>
+        <input type="text" id="nome" name="nome">
+
+        <label for="valor">Valor:</label>
+        <input type="number" id="valor" name="valor">
+
+        <label for="descricao">Descrição:</label>
+        <textarea id="descricao" name="descricao"></textarea>
+
+        <label for="informacoes">Informações de contato:</label>
+        <input type="text" id="informacoes" name="informacoes">
+
+        <label for="arquivo">Insira uma foto do produto:</label>
+        <input type="file" id="arquivo" name="arquivo">
+
+        <button id="btnenviar">Enviar</button>
+    </div>
     
-    <label for="nome">Nome do item:</label>
-        <input  type="text" id="nome" name="nome" size="50"maxlength="500"style="height: 20px;"><br>
-
-        <label for="nome">Valor:</label>
-
-        <input type="number" id="valor" name="valor"size="60"maxlength="500"style="height: 20px;"><br>
-
-    <label for="descricao">Descricao:</label>
-        <input type="text" id="descricao" name="descricao" size="70"maxlength="100"style="height: 70px;"><br>
-
-    <label for="informacoes">Insira informacoes de contato:</label>
-        <input type="text" id="informacoes" name="informacoes" size="60"maxlength="500"style="height: 20px;"><br>
-
-        <p>Insira uma foto do produto:</p>
-        <input type="file" id="arquivo" name="arquivo" size="70"maxlength="500"><br><br>
-        <input type="submit" id="Enviar" name="Enviar" size="60"maxlength="500"style="height: 20px;"><br>
-        </div>
-        </div>
-            <script src="global.js" ></script>
+</div>
+    
+    <script src="global.js" ></script>
 </body>
 </html>

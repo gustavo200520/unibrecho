@@ -1,44 +1,65 @@
-label{
-  text-align: center;
-  display: block;
-  margin: 0 auto 5px;
-  width: 200px;
-  font-size: 18px;
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
 }
-.texto{
-  text-align: center;
-}
-body{
-        background-color: whitesmoke;
-        margin:0;
-        padding:0;
-    }
-.fundo {
-        width: 500px;
-        background: #fff;
-        padding: 30px;
-        margin-top: 40px;
-        border-radius: 10px;
-        box-shadow: 0 2px 12px rgba(0,0,0,0.15);
-        text-align: center;
-    }
 
-  .cabecalho{
-        background-color: rgb(119, 207, 248);
-        width: 100%;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.15);
-    }
-    .cabecalho h1{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 40px;
-        font-weight: 650;
-        color: whitesmoke;
-        font-family: 'Poppins', sans-serif;
-        margin-top:auto;
-        font-style: italic;
-    }
-        
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+
+.formulario {
+    width: 500px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.formulario label {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+/*texto normal, do valor, da descricao*/
+.formulario input[type="text"],.formulario input[type="number"],.formulario input[type="file"],.formulario textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #c9c9c9;
+    border-radius: 4px;
+    background-color: #fafafa;
     
-    
+}
+
+/*descricao*/
+.formulario textarea {
+    height: 120px;
+    resize: none;
+}
+
+
+
+/* Botão */
+#btnenviar {
+    padding: 12px;
+    background-color: #4da3ff;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btnenviar:hover {
+    background-color: #1c8bff;
+}
