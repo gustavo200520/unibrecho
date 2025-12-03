@@ -1,16 +1,25 @@
 const dados = [
-  { titulo: "Camisa Azul", descricao: "Tamanho M", preco: "R$ 30" },
-  { titulo: "Calça Jeans", descricao: "Tamanho 40", preco: "R$ 50" },
-  { titulo: "Tênis Branco", descricao: "Nº 42", preco: "R$ 80" }
+  { titulo: "Camisa radiohead", tamanho: "Tamanho G", preco: "R$ 45",genero:"Masculino",descricao:"camisa legal da banda radiohead" },
+  { titulo: "Calça Jeans", tamanho: "Tamanho M", preco: "R$ 50",genero:"Feminino",descricao:"calca jeans" },
+  { titulo: "Tênis Branco", tamanho: "Tamanho M", preco: "R$ 45",genero:"Masculino",descricao:"camisa legal da banda radiohead" }
 ];
 
 const template = document.getElementById("item-template");
 const lista = document.getElementById("lista");
 
-dados.forEach(item => {
+const parametro = new URLSearchParams(window.location.search);
+const selecionado = parametro.get("parametro");
+
+
+
+
+
   const clone = template.content.cloneNode(true);
-  clone.querySelector(".titulo").textContent = item.titulo;
-  clone.querySelector(".descricao").textContent = item.descricao;
-  clone.querySelector(".preco").textContent = item.preco;
+  clone.querySelector(".titulo").textContent = dados.at(selecionado).titulo;
+  clone.querySelector(".descricao").textContent = dados.at(selecionado).descricao;
+  clone.querySelector(".preco").textContent = dados.at(selecionado).preco;
+  clone.querySelector(".tamanho").textContent = dados.at(selecionado).tamanho;
+  clone.querySelector(".genero").textContent = dados.at(selecionado).genero;
   lista.appendChild(clone);
-});
+;
+

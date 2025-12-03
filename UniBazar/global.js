@@ -16,6 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+
 document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('btnhome').addEventListener('click', () => {
         window.location.href = 'index.html';
@@ -33,3 +34,16 @@ document.addEventListener('DOMContentLoaded', () => {
         window.location.href = 'tela_cadastro.html';
     });
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('0').addEventListener('click', () => {
+        window.location.href = 'tela_descricao_produto_teste.html?parametro=0';
+    });
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('1').addEventListener('click', () => {
+        window.location.href = 'tela_descricao_produto_teste.html?parametro=1';
+    });
+});
+

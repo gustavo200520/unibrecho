@@ -18,7 +18,7 @@ body{
 .navBar{
     background-color:#2c2c2c ;
     padding: 1rem;
-    position: sticky;
+    position: sticky;/*continua na tela*/
     top: 0;
     box-shadow: 10px, 0px, 10px #2c2c2c;
     z-index: 99;
@@ -68,4 +68,12 @@ nav ul li:hover{
     transform: translateY(-5px);
     transition: all 0.2s;/*deixar mais suave o hover*/
     font-weight: bold;
+}
+
+.btnFoto{
+    border: none;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
 }

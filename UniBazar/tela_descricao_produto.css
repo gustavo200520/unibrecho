@@ -9,7 +9,7 @@
             top:75px;
             left:60%;
         }
-        button{  
+    button{  
     gap: 15px;
     font-weight: 500;
     font-size: 15px;
@@ -24,4 +24,8 @@
       padding: 8px 20px;
       border-radius: 5px;
       cursor: pointer;
+    }
+
+    .informacoes{
+      margin-top: 10px;
     }
