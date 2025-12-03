@@ -54,3 +54,8 @@ main{
     font-weight: 600;
 }
 
+.texto_introdutorio{
+    text-align: center;
+    font-size: 1.2rem;
+    
+}

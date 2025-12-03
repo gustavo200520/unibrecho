@@ -36,6 +36,12 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('btntela_produto').addEventListener('click', () => {
+        window.location.href = 'tela_produtos.html';
+    });
+});
+
+document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('0').addEventListener('click', () => {
         window.location.href = 'tela_descricao_produto_teste.html?produto=0';
     });

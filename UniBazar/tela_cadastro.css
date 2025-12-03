@@ -6,12 +6,12 @@ body {
     }
 
     .cabecalho {
-      background-color: rgb(119, 207, 248);
+      background-color:#2c2c2c ;
       padding: 15px 0;
     }
 
     .cabecalho h1 {
-      color: white;
+      color:rgb(119, 207, 248);
       font-style: italic;
       margin: 0;
     }
