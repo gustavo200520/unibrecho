@@ -1,0 +1,17 @@
+
+.iten-descricao img{
+    width: 350px;
+    height: 450px;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 350px;
+}
+
+
+
+.iten-descricao img:hover{
+    transform: translateY(-5px);
+    transition: all 0.2s;/*deixar mais suave o hover*/
+}

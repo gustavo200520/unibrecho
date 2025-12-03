@@ -9,9 +9,8 @@ main{
 }
 
 .colunas-itens4{
-    display:grid;
-    padding: 4rem 12rem;
-    grid-template-columns: repeat(4, 1fr);
+    display:flex;
+    
 }
 
 .colunas-itens4>*{
