@@ -37,13 +37,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
 document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('0').addEventListener('click', () => {
-        window.location.href = 'tela_descricao_produto_teste.html?parametro=0';
+        window.location.href = 'tela_descricao_produto_teste.html?produto=0';
     });
 });
 
 document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('1').addEventListener('click', () => {
-        window.location.href = 'tela_descricao_produto_teste.html?parametro=1';
+        window.location.href = 'tela_descricao_produto_teste.html?produto=1';
     });
 });
 
