@@ -9,8 +9,9 @@ main{
 }
 
 .colunas-itens4{
-    display:flex;
-    
+    display:grid;
+    padding: 4rem 12rem;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .colunas-itens4>*{
@@ -50,4 +51,11 @@ main{
 
 .product-price span{
     font-weight: 600;
+}
+
+.btnimg{
+    border: none;
+    background: none;
+    display: flex;
+    
 }

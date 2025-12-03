@@ -1,17 +1,21 @@
 
-.iten-descricao img{
+.product-descricao img{
     width: 350px;
     height: 450px;
     border-radius: 10px;
-    display:flex;
-    flex-direction: column;
-    margin-top: 40px;
-    margin-left: 350px;
 }
 
-
-
-.iten-descricao img:hover{
+.product-descricao img:hover{
     transform: translateY(-5px);
     transition: all 0.2s;/*deixar mais suave o hover*/
+}
+
+.product-descricao{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+    margin-left: -200px;
 }
