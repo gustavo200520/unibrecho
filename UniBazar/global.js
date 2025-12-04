@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('btnperfil').addEventListener('click', () => {
-        window.location.href = 'tela_lista_de_desejo.html';
+        window.location.href = 'tela_perfil.html';
     });
 });
 
@@ -73,13 +73,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
 document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('0').addEventListener('click', () => {
-        window.location.href = 'tela_descricao_produto_teste.html?produto=0';
+        window.location.href = 'tela_descricao_produto.html?produto=0';
     });
 });
 
 document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('1').addEventListener('click', () => {
-        window.location.href = 'tela_descricao_produto_teste.html?produto=1';
+        window.location.href = 'tela_descricao_produto.html?produto=1';
     });
 });
 
