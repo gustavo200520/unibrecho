@@ -1,7 +1,7 @@
 const dados = [
   { titulo: "Camisa radiohead", imagem:"fotos/radioheadcamisa.jpg", tamanho: "Tamanho: G", preco: "Preço: R$ 45,00",genero:"Corte: Masculino",descricao:"Descrição: Camisa legal da banda radiohead" },
-  { titulo: "Calça patchwork Wave Jeans", imagem:"fotos/Stok di awal februari💫.jpg", tamanho: "Tamanho: M", preco: "Preço: R$ 50,00",genero:"Corte: Feminino",descricao:"Descrição: Ela é toda trabalhada no patchwork (retalhos) de vários tons de jeans." },
-  { titulo: "Óculos lente redonda sem grau", genero:"Material: Aço",tamanho: "Tamanho: adulto", preco: "Preço R$ 45,00",descricao:"Óculos lente redonda sem grau seminovo",imagem:"fotos/download (9).jpg" }
+  { titulo: "Calça patchwork Wave Jeans", imagem:"fotos/Stok di awal februari💫.jpg", tamanho: "Tamanho: M", preco: "Preço: R$ 120,00",genero:"Corte: Feminino",descricao:"Descrição: Ela é toda trabalhada no patchwork (retalhos) de vários tons de jeans." },
+  { titulo: "Óculos lente redonda sem grau", genero:"Material: Aço",tamanho: "Tamanho: adulto", preco: "Preço R$ 75,00",descricao:"Óculos lente redonda sem grau seminovo",imagem:"fotos/download (9).jpg" }
 ];
 
 const template = document.getElementById("item-template");
