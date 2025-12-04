@@ -4,6 +4,11 @@
     border-radius: 10px;
 }
 
+.product-descricao img:hover{
+    transform: translateY(-5px);
+    transition: all 0.2s;/*deixar mais suave o hover*/
+}
+
 .product-descricao{
     display: flex;
     align-items: center;

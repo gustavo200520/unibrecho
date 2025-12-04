@@ -54,6 +54,12 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('btnvoltar').addEventListener('click', () => {
+        window.location.href = 'tela_entrar.html';
+    });
+});
+
+document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('btncadastrar').addEventListener('click', () => {
         window.location.href = 'tela_cadastro.html';
     });

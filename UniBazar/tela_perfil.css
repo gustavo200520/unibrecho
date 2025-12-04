@@ -13,7 +13,7 @@ body {
 
 
 .formulario {
-    width: 500px;
+    width: 500px;   
     background: #ffffff;
     padding: 30px;
     border-radius: 5px;
@@ -29,7 +29,6 @@ body {
     font-weight: 600;
 }
 
-.perfil_geral{
-    display: flex;
-    
+p{
+    color:darkgray;
 }
