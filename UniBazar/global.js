@@ -1,3 +1,6 @@
+
+
+
 document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('btnmeus_anuncios').addEventListener('click', () => {
         window.location.href = 'tela_meus_anuncios.html';
@@ -86,6 +89,12 @@ document.addEventListener('DOMContentLoaded', () => {
 document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('1').addEventListener('click', () => {
         window.location.href = 'tela_descricao_produto.html?produto=1';
+    });
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('2').addEventListener('click', () => {
+        window.location.href = 'tela_descricao_produto.html?produto=2';
     });
 });
 
