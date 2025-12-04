@@ -11,23 +11,26 @@ const parametro = new URLSearchParams(window.location.search);
 const selecionado = parametro.get("produto");
 
 
-let desejado=false;
+/*let desejado=false;
 document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('btnlista_de_desejo').addEventListener('click', () => {
           desejado = !desejado;
           if (desejado == true) {
     clone.querySelector(".desejo").textContent='desfavoritar';
+    window.alert("Adicionado á lista de desejos com sucesso!");        
   }
   else clone.querySelector(".desejo").textContent='favoritar';
     });
 });
+*/
+
+function mostrarPopup() {
+    window.alert("Dados salvos com sucesso!");
+}
 
   
   const clone = template.content.cloneNode(true);
-  if (desejado == true) {
-    clone.querySelector(".desejo").textContent='desfavoritar';
-  }
-  else clone.querySelector(".desejo").textContent='favoritar';
+  
 
   
   clone.querySelector(".titulo").textContent = dados.at(selecionado).titulo;
