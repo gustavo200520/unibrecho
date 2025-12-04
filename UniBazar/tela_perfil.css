@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+
+.formulario {
+    width: 500px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.formulario label {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.perfil_geral{
+    display: flex;
+    
+}
